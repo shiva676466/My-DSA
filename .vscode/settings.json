@@ -1,0 +1,6 @@
+{
+  "python.REPL.enableREPLSmartSend": false,
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": ["subarray"],
+  "liveServer.settings.port": 5501
+}

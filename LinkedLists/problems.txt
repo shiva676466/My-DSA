@@ -1,0 +1,77 @@
+Level 1 – Beginner (Basic Operations)
+
+Focus: Understanding node structure and simple traversal.
+	- [x] Create a singly linked list and print all elements.
+	- [x] Insert a node at the beginning of a linked list.
+	- [x] Insert a node at the end of a linked list.
+	- [x] Insert a node at a specific position.
+	- [x] Delete a node from the beginning.
+	- [x] Delete a node from the end.
+	- [x] Delete a node with a given value.
+	- [x] Search for an element in a linked list.
+	- [x] Count the number of nodes in a linked list.
+	- [x] Find the middle element of a linked list.
+
+⸻
+
+🟡 Level 2 – Easy (Basic Interview Problems)
+
+Focus: Traversal techniques and simple manipulation.
+	- [x] Reverse a linked list (iterative).
+	- [ ] Reverse a linked list (recursive).
+	- [ ] Find the Nth node from the end.
+	- [ ] Detect a cycle in a linked list.
+	- [ ] Find the length of a cycle in a linked list.
+	- [ ] Remove duplicates from a sorted linked list.
+	- [ ] Merge two sorted linked lists.
+	- [ ] Delete the middle node of a linked list.
+	- [ ] Check if a linked list is palindrome.
+	- [ ] Remove elements with a given value.
+
+⸻
+
+🟠 Level 3 – Medium
+
+Focus: Two-pointer technique and structural modification.
+	- [ ] Find the intersection point of two linked lists.
+	- [ ] Reverse nodes in k-group.
+	- [ ] Rotate a linked list by k positions.
+	- [ ] Partition linked list around a value x.
+	- [ ] Add two numbers represented by linked lists.
+	- [ ] Swap nodes in pairs.
+	- [ ] Remove the Nth node from end.
+	- [ ] Reorder list (L0 → Ln → L1 → Ln-1…).
+	- [ ] Sort a linked list using merge sort.
+	- [ ] Flatten a multilevel linked list.
+
+⸻
+
+🔴 Level 4 – Hard
+
+Focus: Advanced pointer manipulation and tricky edge cases.
+	- [ ] Reverse nodes in even length groups.
+	- [ ] Copy a linked list with random pointers.
+	- [ ] Reverse a linked list between two positions.
+	- [ ] Merge k sorted linked lists.
+	- [ ] Delete nodes that have greater value on the right.
+	- [ ] Split linked list into k parts.
+	- [ ] Detect the start of cycle in linked list.
+	- [ ] Convert binary number in linked list to integer.
+	- [ ] Clone a linked list with next and random pointer (O(1) space).
+	- [ ] Implement LRU Cache using Doubly Linked List + HashMap.
+
+⸻
+
+⚫ Level 5 – Expert (Top Interview Problems)
+
+Focus: Complex algorithmic thinking.
+	- [ ] Design a Browser History using linked list.
+	- [ ] Implement LFU Cache.
+	- [ ] Reverse alternate k nodes in linked list.
+	- [ ] Add two numbers where digits are stored forward order.
+	- [ ] Flatten a linked list with bottom pointers.
+	- [ ] Find maximum twin sum of linked list.
+	- [ ] Remove zero sum consecutive nodes.
+	- [ ] Reverse linked list in groups of increasing size.
+	- [ ] Implement Skip List.
+	- [ ] Convert BST to sorted doubly linked list.

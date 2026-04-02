@@ -1,0 +1,80 @@
+QUEUE PROBLEMS ROADMAP
+
+LEVEL 1 – BASICS
+
+- [ ] 1. Implement Queue using Array
+- [ ] 2. Implement Queue using Linked List
+- [ ] 3. Implement Queue using STL / Built-in Queue
+- [ ] 4. Implement Circular Queue
+- [ ] 5. Design Circular Queue
+- [ ] 6. Implement Deque (Double Ended Queue)
+- [ ] 7. Design Front Middle Back Queue
+- [ ] 8. Reverse a Queue
+- [ ] 9. Generate Binary Numbers from 1 to N using Queue
+- [ ] 10. First Non-Repeating Character in a Stream
+
+
+LEVEL 2 – QUEUE + SLIDING WINDOW
+
+- [ ] 11. Sliding Window Maximum
+- [ ] 12. First Negative Number in Every Window of Size K
+- [ ] 13. Maximum of All Subarrays of Size K
+- [ ] 14. Sum of Minimum and Maximum of All Subarrays of Size K
+- [ ] 15. Count Occurrences of Anagrams
+- [ ] 16. Longest Substring with K Unique Characters
+- [ ] 17. Longest Subarray with Sum K
+- [ ] 18. Shortest Subarray with Sum at Least K
+- [ ] 19. Constrained Subsequence Sum
+- [ ] 20. Jump Game VI
+
+
+LEVEL 3 – MONOTONIC QUEUE
+
+- [ ] 21. Sliding Window Maximum (Deque Optimized)
+- [ ] 22. Shortest Subarray with Sum at Least K
+- [ ] 23. Longest Continuous Subarray with Absolute Diff ≤ Limit
+- [ ] 24. Maximum Result from Jump Game
+- [ ] 25. Sum of Subarray Ranges
+- [ ] 26. Maximum Robots Within Budget
+- [ ] 27. Minimum Cost Tree From Leaf Values
+- [ ] 28. Maximum Width Ramp
+- [ ] 29. Maximum Score of a Good Subarray
+- [ ] 30. Maximum Subarray Min Product
+
+
+LEVEL 4 – DESIGN + SIMULATION
+
+- [ ] 31. Implement Stack using Two Queues
+- [ ] 32. Implement Queue using Two Stacks
+- [ ] 33. Design Hit Counter
+- [ ] 34. Design Moving Average from Data Stream
+- [ ] 35. Design Snake Game
+- [ ] 36. Design Circular Deque
+- [ ] 37. Number of Recent Calls
+- [ ] 38. Dota2 Senate
+- [ ] 39. Time Needed to Buy Tickets
+- [ ] 40. Reveal Cards in Increasing Order
+
+
+LEVEL 5 – ADVANCED / BFS + QUEUE
+
+- [ ] 41. Rotting Oranges
+- [ ] 42. Number of Islands (BFS)
+- [ ] 43. Walls and Gates
+- [ ] 44. 01 Matrix
+- [ ] 45. Shortest Path in Binary Matrix
+- [ ] 46. Open the Lock
+- [ ] 47. Minimum Knight Moves
+- [ ] 48. Bus Routes
+- [ ] 49. Word Ladder
+- [ ] 50. Minimum Genetic Mutation
+
+
+BONUS PROBLEMS
+
+- [ ] 51. Task Scheduler
+- [ ] 52. Rearrange String K Distance Apart
+- [ ] 53. Kth Smallest Element in Sorted Matrix
+- [ ] 54. Maximum Sum Circular Subarray
+- [ ] 55. Sliding Window Median
+- [ ] 56. Design Twitter

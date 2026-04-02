@@ -1,0 +1,61 @@
+Level 1: Basics (Understanding Recursive Thinking)
+
+- [x] 1. Print Numbers from 1 to N  
+- [x] 2. Print Numbers from N to 1  
+- [x] 3. Sum of First N Natural Numbers  
+- [x] 4. Factorial of a Number  
+- [x] 5. Power of a Number  
+- [x] 6. Count Digits in a Number  
+- [x] 7. Sum of Digits  
+- [ ] 8. Reverse a String  
+
+--------------------------------------------------
+
+Level 2: Intermediate (Decision Making in Recursion)
+
+- [ ] 9. Fibonacci Number  
+- [ ] 10. Check if a String is Palindrome  
+- [ ] 11. GCD of Two Numbers  
+- [ ] 12. Binary Search (Recursive)  
+- [ ] 13. Print All Subarrays of an Array  
+- [ ] 14. Check if Array is Sorted  
+
+--------------------------------------------------
+
+Level 3: Backtracking Basics
+
+- [ ] 15. Print All Subsequences of a String  
+- [ ] 16. Generate All Subsets of an Array  
+- [ ] 17. Generate All Permutations of a String  
+- [ ] 18. Print All Combinations of Parentheses  
+- [ ] 19. Phone Keypad Combinations  
+
+--------------------------------------------------
+
+Level 4: Advanced Recursion & Backtracking
+
+- [ ] 20. N-Queens Problem  
+- [ ] 21. Sudoku Solver  
+- [ ] 22. Rat in a Maze  
+- [ ] 23. Word Search in Grid  
+- [ ] 24. Combination Sum  
+- [ ] 25. Tower of Hanoi  
+
+--------------------------------------------------
+
+Level 5: Recursion + Divide & Conquer
+
+- [ ] 26. Merge Sort (Recursive)  
+- [ ] 27. Quick Sort (Recursive)  
+- [ ] 28. Count Inversions in an Array  
+- [ ] 29. Find Majority Element (Divide & Conquer)  
+- [ ] 30. Power using Fast Exponentiation  
+
+--------------------------------------------------
+
+Bonus (Mind Stretchers)
+
+- [ ] 31. Josephus Problem  
+- [ ] 32. Generate All Balanced Binary Strings  
+- [ ] 33. K-th Grammar Symbol  
+- [ ] 34. Generate Gray Codes  

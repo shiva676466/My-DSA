@@ -1,0 +1,92 @@
+LEVEL 1 — Basics
+
+- [x] Find maximum and minimum element in array
+- [x] Reverse an array
+- [x] Check if array is sorted
+- [x] Linear search
+- [x] Count frequency of an element
+- [x] Move all zeros to end
+- [x] Remove duplicates from sorted array
+- [x] Left rotate array by 1
+- [x] Left rotate array by K positions
+- [x] Find second largest element
+
+Goal: Be 100% comfortable with loops and indexing.
+
+
+LEVEL 2 — Binary Search & Variations
+
+- [x] Binary search
+- [ ] Lower bound / Upper bound
+- [ ] Search insert position
+- [ ] First and last occurrence of element
+- [ ] Count occurrences of element
+- [ ] Search in rotated sorted array
+- [ ] Find minimum in rotated sorted array
+- [ ] Find peak element
+- [ ] Square root using binary search
+- [ ] Single element in sorted array
+
+Goal: Master pattern recognition in sorted arrays.
+
+
+LEVEL 3 — Two Pointer & Sliding Window
+
+- [ ] Two sum (sorted array version)
+- [ ] Remove duplicates from sorted array II
+- [ ] Container with most water
+- [ ] Trapping rain water
+- [ ] 3Sum
+- [ ] 4Sum
+- [ ] Longest subarray with sum K (positive numbers)
+- [ ] Longest substring without repeating characters
+- [ ] Minimum size subarray sum
+- [ ] Merge two sorted arrays
+
+Goal: Learn to reduce nested loops into linear time.
+
+
+LEVEL 4 — Prefix Sum & Kadane’s Algorithm
+
+- [ ] Maximum subarray (Kadane’s algorithm)
+- [ ] Subarray sum equals K
+- [ ] Count subarrays with given sum
+- [ ] Product of array except self
+- [ ] Maximum product subarray
+- [ ] Longest consecutive sequence
+- [ ] Majority element (Moore’s Voting)
+- [ ] Maximum sum circular subarray
+- [ ] Gas station problem
+- [ ] Equilibrium index
+
+Goal: Think in terms of running sums and optimized tracking.
+
+
+LEVEL 5 — Advanced / Interview Level
+
+- [ ] Median of two sorted arrays
+- [ ] First missing positive
+- [ ] Merge intervals
+- [ ] Insert interval
+- [ ] Maximum sliding window
+- [ ] Largest rectangle in histogram
+- [ ] Trapping rain water (optimized version)
+- [ ] Count inversions in array
+- [ ] Find duplicate number (cycle detection method)
+- [ ] Subarrays with K distinct integers
+
+Goal: Combine multiple techniques together.
+
+
+BONUS — If You Want to Be Elite
+
+- [ ] Next permutation
+- [ ] Dutch national flag problem
+- [ ] Rotate matrix
+- [ ] Set matrix zeroes
+- [ ] Spiral matrix
+- [ ] Maximum points on a line
+- [ ] Split array largest sum
+- [ ] Kth largest element (Quickselect)
+- [ ] Longest increasing subsequence
+- [ ] Sliding window maximum (deque optimized)

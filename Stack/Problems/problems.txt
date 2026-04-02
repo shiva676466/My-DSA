@@ -1,0 +1,78 @@
+========================
+STACKS - COMPLETE ROADMAP
+========================
+
+LEVEL 1 - BASICS
+----------------
+- [x] 1. Implement Stack using Array
+- [x] 2. Implement Stack using Linked List
+- [x] 3. Implement Stack using STL / Built-in Stack
+- [ ] 4. Valid Parentheses
+- [x] 5. Balanced Brackets
+- [ ] 6. Remove Outermost Parentheses
+- [ ] 7. Min Stack (getMin in O(1))
+- [x] 8. Reverse a String using Stack
+- [x] 9. Delete Middle Element of Stack
+- [ ] 10. Sort a Stack using another Stack
+- [ ] 11. Sort a Stack using Recursion
+
+LEVEL 2 - MONOTONIC STACK
+-------------------------
+- [ ] 11. Next Greater Element
+- [ ] 12. Next Greater Element II (Circular)
+- [ ] 13. Next Smaller Element
+- [ ] 14. Previous Greater Element
+- [ ] 15. Previous Smaller Element
+- [ ] 16. Stock Span Problem
+- [ ] 17. Daily Temperatures
+- [ ] 18. Largest Rectangle in Histogram
+- [ ] 19. Maximal Rectangle (Matrix)
+- [ ] 20. Sum of Subarray Minimums
+
+LEVEL 3 - EXPRESSIONS
+---------------------
+- [ ] 21. Evaluate Postfix Expression
+- [ ] 22. Evaluate Prefix Expression
+- [ ] 23. Infix to Postfix Conversion
+- [ ] 24. Infix to Prefix Conversion
+- [ ] 25. Postfix to Infix
+- [ ] 26. Prefix to Infix
+- [ ] 27. Basic Calculator I
+- [ ] 28. Basic Calculator II
+- [ ] 29. Decode String
+- [ ] 30. Remove K Digits
+
+LEVEL 4 - DESIGN + SIMULATION
+------------------------------
+- [ ] 31. Implement Stack using Two Queues
+- [ ] 32. Implement Queue using Two Stacks
+- [ ] 33. Design Browser History
+- [ ] 34. Design Min Stack (Optimized)
+- [ ] 35. Design Max Stack
+- [ ] 36. Flatten Nested List Iterator
+- [ ] 37. Exclusive Time of Functions
+- [ ] 38. Simplify Unix Path
+- [ ] 39. Validate Stack Sequences
+- [ ] 40. Remove All Adjacent Duplicates in String II
+
+LEVEL 5 - ADVANCED
+------------------
+- [ ] 41. Trapping Rain Water (Stack Approach)
+- [ ] 42. Largest Rectangle in Histogram (Optimized)
+- [ ] 43. Remove Duplicate Letters
+- [ ] 44. Shortest Unsorted Continuous Subarray
+- [ ] 45. Car Fleet
+- [ ] 46. Asteroid Collision
+- [ ] 47. Score of Parentheses
+- [ ] 48. Longest Valid Parentheses
+- [ ] 49. 132 Pattern
+- [ ] 50. Maximum Frequency Stack
+
+BONUS PROBLEMS
+--------------
+- [ ] 51. Stack with getMin without Extra Space
+- [ ] 52. Design LFU Cache (Stack Insight)
+- [ ] 53. Sliding Window Maximum (Deque vs Stack Concept)
+- [ ] 54. Expression Tree Construction
+- [ ] 55. Parse Boolean Expression
+- [ ] 56. Remove Invalid Parentheses
