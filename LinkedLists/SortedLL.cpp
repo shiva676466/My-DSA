@@ -130,6 +130,7 @@ public:
     // --------- MERGE SORT FOR LINKED LIST ---------
 
     Node* merge(Node* left, Node* right){
+        // These are the base cases
         if(left == NULL) return right;
         if(right == NULL) return left;
 
@@ -155,6 +156,7 @@ public:
 
     Node* mergeSort(Node* head){
         // this is to handle single element in the linked list
+        // This is also the base case
         if(head == NULL || head->next == NULL){
             return head;
         }
