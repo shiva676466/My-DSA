@@ -19,9 +19,13 @@ bool isPalindrome(list<int> head) {
 
 int main() {
 
-  list<int> ll = {1, 2, 3, 4};
-  cout << ll.front() << endl << endl;
-  cout << ll.back();
+  list<int> ll = {1, 2, 3, 4, 4, 3, 2, 1};
+  
+  if(isPalindrome(ll)){
+    cout << "Panlidrome\n";
+  } else{
+    cout << "Not a palindrome\n";
+  }
 
   return 0;
 }
