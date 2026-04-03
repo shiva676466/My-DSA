@@ -12,7 +12,7 @@ using namespace std;
 // ll.size()
 
 list<int> Reverse_ll(list<int> head){
-
+    
 }
 
 
