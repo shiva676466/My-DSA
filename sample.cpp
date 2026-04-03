@@ -1,15 +1,20 @@
 #include <algorithm>
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 using namespace std;
 
+int main() {
+  vector<vector<int>> array = {
 
-int main(){
+    {10, 20, 30}, 
+  {40, 50, 60}
+  
+};
 
-    
-    vector<vector<int>> array;
-    array.push_back({1});
-    
+  cout << array[0][0] << "\n";
+  cout << array[0][1] << "\n";
+  cout << array[0][2] << "\n";
+  cout << array[1][2] << "\n";
 
-    return 0;
+  return 0;
 }
