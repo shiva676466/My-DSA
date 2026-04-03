@@ -25,7 +25,7 @@ int main() {
   
   if(isPalindrome(ll)){
     cout << "Panlidrome\n";
-  } else{
+  } else {
     cout << "Not a palindrome\n";
   }
 
