@@ -39,7 +39,6 @@ int main(void) {
     cout << x << "->";
   }
   cout << "NULL" << endl;
-  cout << ll.size();
 
   return 0;
 }
