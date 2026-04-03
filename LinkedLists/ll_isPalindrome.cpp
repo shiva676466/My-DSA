@@ -3,6 +3,8 @@
 using namespace std;
 
 bool isPalindrome(list<int> head) {
+    // auto is the kw that detects the data type of the variable by the value itself.
+    // here our 'auto left = head.begin()' - is an iterator that traverse along the list.
     auto left = head.begin();
     auto right = head.end();
     right--;
