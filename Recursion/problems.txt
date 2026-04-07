@@ -16,7 +16,7 @@ Level 2: Intermediate (Decision Making in Recursion)
 - [x] 9. Fibonacci Number  
 - [ ] 10. Check if a String is Palindrome  
 - [ ] 11. GCD of Two Numbers  
-- [ ] 12. Binary Search (Recursive)  
+- [x] 12. Binary Search (Recursive)  
 - [ ] 13. Print All Subarrays of an Array  
 - [ ] 14. Check if Array is Sorted  
 
