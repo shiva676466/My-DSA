@@ -8,7 +8,7 @@ void reverseArray(int arr[], int st, int end){
         return;
     }
 
-    // swapping 
+    // swapping or we can also use algorithm library for using 'swap()' fn
     int temp = arr[st];
     arr[st] = arr[end];
     arr[end] = temp;
