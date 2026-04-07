@@ -9,15 +9,15 @@ int fibo(int n) {
     return 1;
   }
 
-  else {
-    return fibo(n - 1) + fibo(n - 2);
-  }
+  return fibo(n - 1) + fibo(n - 2);
 }
 
 int main(void) {
 
-  int k = 5;
-  cout << fibo(k) << " ";
+  int k = 20;
+  for (int i = 0; i < k; i++) {
+    cout << fibo(i) << " ";
+  }
 
   return 0;
 }
