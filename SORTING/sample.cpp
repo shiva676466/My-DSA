@@ -20,7 +20,21 @@ void bubbleSort(int arr[], int n) {
 
 
 // 2. selection sort
-void selectionSort(int arr, int n){
+void selectionSort(int arr[], int n){
+    for(int i = 0; i < n - 1; i++){
+      int minIdx = i;
+      for(int j = i + 1; j < n; j++){
+        if(arr[j] < arr[minIdx]){
+          minIdx = j;
+        }
+      }
+      swap(arr[i], arr[minIdx]);
+    }
+}
+
+
+// insertion sort
+void insertionSort(int arr[], int n){
     
 }
 
@@ -35,5 +49,13 @@ int main(void) {
     cout << n << " ";
   }
   cout << endl;
+  
+  selectionSort(arr, n);
+  
+  for (int n : arr) {
+    cout << n << " ";
+  }
+  cout << endl;
+
   return 0;
 }
