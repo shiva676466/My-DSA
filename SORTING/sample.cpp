@@ -16,6 +16,14 @@ void bubbleSort(int arr[], int n) {
   }
 }
 
+// look at the optimised part after done
+
+
+// 2. selection sort
+void selectionSort(int arr, int n){
+    
+}
+
 int main(void) {
   // for bubble sort
   int arr[] = {3, 2, 1, 7, 6};
