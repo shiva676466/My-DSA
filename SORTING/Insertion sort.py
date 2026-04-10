@@ -23,7 +23,7 @@ for i in range(1, n):           # start from second element
     key = nums[i]               # key is the element that we want to insert.
     j = i - 1
 
-    while j >= 0 and nums[j] > key:
+    while (j >= 0 and nums[j] > key):
         nums[j + 1] = nums[j]   # shift element to the right
         j -= 1
 
