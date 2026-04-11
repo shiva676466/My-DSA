@@ -35,7 +35,16 @@ void selectionSort(int arr[], int n){
 
 // insertion sort
 void insertionSort(int arr[], int n){
-    
+    for(int i = 1; i < n; i++){
+      int key = arr[i];
+      int j = i - 1;
+
+      while(j >= 0 and arr[j] > key){
+        arr[j+1] = arr[j];
+        j--;
+      }
+      arr[j+1] = key;
+    }
 }
 
 int main(void) {
@@ -56,6 +65,11 @@ int main(void) {
     cout << n << " ";
   }
   cout << endl;
-
+  
+  insertionSort(arr, n);
+  for (int n : arr) {
+    cout << n << " ";
+  }
+  cout << endl;
   return 0;
 }
