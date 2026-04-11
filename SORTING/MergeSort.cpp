@@ -59,3 +59,15 @@ int main(){
 
     return 0;
 }
+
+
+/* 
+TC: 
+
+best case = O(n logn)
+worst case = O(n log n)
+
+SC:
+best case = O(n)
+worst case = O(n)
+ */
