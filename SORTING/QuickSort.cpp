@@ -3,7 +3,7 @@
 using namespace std;
 
 int partition(vector<int> &arr, int st, int end) {
-				
+
   int idx = st, pivot = arr[st];
 
   for (int j = st+1; j <= end; j++) {
@@ -37,3 +37,13 @@ int main() {
 
   return 0;
 }
+
+
+
+/* 
+TC: 
+
+best case = O(n logn)
+worst case = O(n^2)
+
+SC: O(log n) */
