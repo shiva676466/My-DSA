@@ -14,6 +14,7 @@ void bubbleSort(int arr[], int n) {
     }
   }
 }
+// TC: O(n) (best)
 
 // look at the optimised part after done
 
@@ -21,30 +22,32 @@ void bubbleSort(int arr[], int n) {
 // 2. selection sort
 void selectionSort(int arr[], int n){
     for(int i = 0; i < n - 1; i++){
-      int minIdx = i;
-      for(int j = i + 1; j < n; j++){
-        if(arr[j] < arr[minIdx]){
-          minIdx = j;
+        int minIdx = i;
+        for(int j = i + 1; j < n; j++){
+            if(arr[j] < arr[minIdx]){
+                minIdx = j;
+            }
         }
-      }
-      swap(arr[i], arr[minIdx]);
+        swap(arr[i], arr[minIdx]);
     }
 }
+// TC: O(n^2) (always)
 
 
 // insertion sort
 void insertionSort(int arr[], int n){
     for(int i = 1; i < n; i++){
-      int key = arr[i];
-      int j = i - 1;
-
-      while(j >= 0 and arr[j] > key){
-        arr[j+1] = arr[j];
-        j--;
-      }
-      arr[j+1] = key;
+        int key = arr[i];
+        int j = i - 1;
+        
+        while(j >= 0 and arr[j] > key){
+            arr[j+1] = arr[j];
+            j--;
+        }
+        arr[j+1] = key;
     }
 }
+// TC: O(n) (best)
 
 int main(void) {
   // for bubble sort
