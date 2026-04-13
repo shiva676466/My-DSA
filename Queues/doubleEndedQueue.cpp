@@ -1,12 +1,4 @@
 #include <iostream>
-using namespace std;
-
-#define N 100
-
-// Double-Ended Queue is a special type of queue where we can:
-//      - insert from front n rear
-//      - delete from front n rear
-int Dequeue[N];
 
 // ===================================================================================================================================
 // C++ STL implementation
