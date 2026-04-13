@@ -23,7 +23,7 @@ void enqueue(int val){
     }
 }
 
-void deque(){
+void dequeue(){
     if(front == -1 || front > rear){
         cout << "Underflow\n";
         return;
@@ -47,4 +47,30 @@ int peek(){
         return -1;
     }
     return Queue[rear];
+}
+
+void display(){
+   if(isEmpty()){
+      cout << "Empty queue\n";
+      return;
+   }
+   for(int i = front; i <= rear; i++){
+      cout << Queue[i] << " ";
+   }
+   cout << '\n';
+}
+
+int main(void){
+    enqueue(1);
+   enqueue(2);
+   enqueue(3);
+   enqueue(4);
+   enqueue(5);
+
+   display();
+
+   dequeue();
+
+   display();
+    return 0;
 }
