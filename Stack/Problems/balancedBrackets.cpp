@@ -5,11 +5,15 @@ using namespace std;
 class Stack{
     char arr[100];
     int top = -1;
+
 public:
     Stack(){
+        // intialising constructor
         top = -1;
     }
 
+    // start writing functions from here
+    
     void push(char val){
         if(top == 99){
             cout << "Overflow\n";
@@ -23,7 +27,7 @@ public:
             cout << "Underflow\n";
             return;
         }
-        top --;
+        top--;
     }
 
     char peek(){
@@ -48,6 +52,8 @@ public:
     bool isBalanced(string brackets){
         Stack s;
 
+        // we can create object of same class but only inside a function inside that class.
+
         for(int i = 0; i < brackets.length(); i++){
             char ch = brackets[i];
 
@@ -65,7 +71,8 @@ public:
 
                 if((ch == ')' && top == '(') ||
                    (ch == '}' && top == '{') ||
-                   (ch == ']' && top == '[')){
+                   (ch == ']' && top == '[')
+                ){
                     s.pop();
                 } else {
                     return false;
@@ -80,7 +87,7 @@ public:
 
 int main(){
 
-    string brackets = "({[])";
+    string brackets = "({[]})";
 
     Stack s;
 
