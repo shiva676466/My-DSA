@@ -38,7 +38,9 @@ void dequeue(){
    return;
   }
   front++;
+//   front++ means ignoring the element this means indirectly removing it.
   if(front > rear){
+// this condition will true when the last element is removed because if all the elements were removed then the front becomes >= rear
    front = rear = -1;
   }
 }
