@@ -18,5 +18,6 @@ int main(){
     return 0;
 }
 
+
 // SC : O(1)
 // TC : O(n)
