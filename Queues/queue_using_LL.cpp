@@ -17,8 +17,10 @@ void enqueue(int val){
     newNode->next = NULL;
 
     if(front == NULL && rear == NULL){
+        // checking for emptyness if yes then both the ptrs points to the newNode only.
         front = rear = newNode;
     } else {
+        // if queue is not empty then the rear points to next node then updates.
         rear->next = newNode;
         rear = newNode;
     }
@@ -30,6 +32,8 @@ void dequeue(){
         cout << "Underflow\n";
         return;
     }
+    // we can only delete the front element in queue so we must have to delete queue's front.
+    // so we intialise temp ptr to front then move front forwards then delete temp so that front will be removed.
     Node* temp = front;
     front = front->next;
 
