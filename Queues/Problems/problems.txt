@@ -2,10 +2,10 @@ QUEUE PROBLEMS ROADMAP
 
 LEVEL 1 – BASICS
 
-- [ ] 1. Implement Queue using Array
+- [x] 1. Implement Queue using Array
 - [ ] 2. Implement Queue using Linked List
 - [ ] 3. Implement Queue using STL / Built-in Queue
-- [ ] 4. Implement Circular Queue
+- [x] 4. Implement Circular Queue
 - [ ] 5. Design Circular Queue
 - [ ] 6. Implement Deque (Double Ended Queue)
 - [ ] 7. Design Front Middle Back Queue
