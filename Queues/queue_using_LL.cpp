@@ -28,6 +28,7 @@ void enqueue(int val){
 
 
 void dequeue(){
+    // check for fullness of queue
     if(front == NULL){
         cout << "Underflow\n";
         return;
@@ -37,6 +38,8 @@ void dequeue(){
     Node* temp = front;
     front = front->next;
 
+    // if we have only one node the front, rear will point to that node then when we perform dequeue() the front will be ->
+    // forward (NULL) but the rear is still pointing towards the deleted node so to avoid that we will make rear=NULL in this condition
     if(front == NULL){
         rear = NULL;
     }
