@@ -128,6 +128,17 @@ public:
     }
 
     // --------------------------------------------- MERGE SORT FOR LINKED LIST ---------------------------------------------
+    
+    Node* getMid(Node* head){
+        Node* slow = head;
+        Node* fast = head->next;
+
+        while(fast != NULL && fast->next != NULL){ 
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        return slow;
+    }
 
     Node* merge(Node* left, Node* right){
         // These are the base cases
@@ -143,16 +154,6 @@ public:
         }
     }
 
-    Node* getMid(Node* head){
-        Node* slow = head;
-        Node* fast = head->next;
-
-        while(fast != NULL && fast->next != NULL){ 
-            slow = slow->next;
-            fast = fast->next->next;
-        }
-        return slow;
-    }
 
     Node* mergeSort(Node* head){
         // this is to handle single element in the linked list
