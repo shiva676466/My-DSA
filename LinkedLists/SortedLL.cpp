@@ -127,7 +127,7 @@ public:
         cout << "NULL\n";
     }
 
-    // --------- MERGE SORT FOR LINKED LIST ---------
+    // ------------------------------------ MERGE SORT FOR LINKED LIST ------------------------------------
 
     Node* merge(Node* left, Node* right){
         // These are the base cases
