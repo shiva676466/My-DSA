@@ -15,8 +15,7 @@ public:
   }
 };
 
-static int idx = -1;
-Node *buildTree(vector<int> preorder) {
+Node *buildTree(vector<int>& preorder, int &idx) {
   idx++;
 
   if (idx >= preorder.size() || preorder[idx] == -1) { // base case
@@ -24,8 +23,8 @@ Node *buildTree(vector<int> preorder) {
   }
 
   Node *root = new Node(preorder[idx]);
-  root->left = buildTree(preorder);  // for left
-  root->right = buildTree(preorder); // for right
+  root->left = buildTree(preorder, idx);  // for left
+  root->right = buildTree(preorder, idx); // for right
 
   return root;
 }
@@ -85,7 +84,8 @@ TERMS IN TREE:
 20.Diameter of Tree  : Longest path between any two nodes in the tree
 */
 
-  Node *root = buildTree(preorder);
+  int idx = -1;
+  Node *root = buildTree(preorder, idx);
 
   cout << root->data << " ";
   cout << root->left->data << " ";
