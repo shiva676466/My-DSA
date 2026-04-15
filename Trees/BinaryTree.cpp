@@ -82,6 +82,7 @@ TERMS IN TREE:
 18.Sibling           : Nodes having the same parent (2 and 3 are siblings)
 19.Path              : Sequence of nodes from one node to another (1→3→4→5)
 20.Diameter of Tree  : Longest path between any two nodes in the tree
+21.Siblings          : Nodes having the same parent
 */
 
   int idx = -1;
