@@ -15,6 +15,26 @@ int main(){
     }
     return 0;
 }
-
 // Time Complexity: O(n)
 // Space Complexity: O(n)
+
+
+// void reverseArray(vector<int>& arr, int st, int end){
+    //         while(st < end){
+        //             swap(arr[st], arr[end]);
+        //             st++;
+        //             end--;
+        //         }
+        //     }
+        //     void rotateArr(vector<int>& arr, int d) {
+            //         int n = arr.size();
+            
+            //         d = d%n;
+            
+            //         reverseArray(arr, 0, d-1);
+            //         reverseArray(arr, d, n-1);
+            //         reverseArray(arr, 0, n-1);
+            //     }
+            
+// Time Complexity: O(n)
+// Space Complexity: O(1)
