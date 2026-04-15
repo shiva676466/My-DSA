@@ -87,9 +87,9 @@ TERMS IN TREE:
 
   Node *root = buildTree(preorder);
 
-  cout << root->data << "\n";
-  cout << root->left->data << "\n";
-  cout << root->right->data << "\n";
+  cout << root->data << " ";
+  cout << root->left->data << " ";
+  cout << root->right->data << " ";
 
   return 0;
 }
