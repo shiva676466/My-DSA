@@ -212,3 +212,97 @@ int main(){
 
     return 0;
 }
+
+/*
+==================== WITHOUT OOPS (STRUCT BASED IMPLEMENTATION) ====================
+
+#include <iostream>
+using namespace std;
+
+struct Node {
+    int data;
+    Node* next; 
+    
+};
+
+Node* head = NULL;
+
+// Insert at beginning
+void push_front(int val) {
+    Node* newNode = new Node();
+    newNode->data = val;
+    newNode->next = head;
+    head = newNode;
+}
+
+// Insert at end
+void push_back(int val) {
+    Node* newNode = new Node();
+    newNode->data = val;
+    newNode->next = NULL;
+
+    if (head == NULL) {
+        head = newNode;
+        return;
+    }
+
+    Node* temp = head;
+    while (temp->next != NULL) {
+        temp = temp->next;
+    }
+    temp->next = newNode;
+}
+
+// Delete from beginning
+void pop_front() {
+    if (head == NULL) return;
+
+    Node* temp = head;
+    head = head->next;
+    delete temp;
+}
+
+// Delete from end
+void pop_back() {
+    if (head == NULL) return;
+
+    if (head->next == NULL) {
+        delete head;
+        head = NULL;
+        return;
+    }
+
+    Node* temp = head;
+    while (temp->next->next != NULL) {
+        temp = temp->next;
+    }
+
+    delete temp->next;
+    temp->next = NULL;
+}
+
+// Print list
+void printLL() {
+    Node* temp = head;
+    while (temp != NULL) {
+        cout << temp->data << " -> ";
+        temp = temp->next;
+    }
+    cout << "NULL\n";
+}
+
+// Reverse list
+void reverse() {
+    Node* prev = NULL;
+    Node* curr = head;
+    Node* nextNode = NULL;
+
+    while (curr != NULL) {
+        nextNode = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = nextNode;
+    }
+    head = prev;
+}
+*/
