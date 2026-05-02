@@ -63,7 +63,7 @@ public:
         Node* newNode = new Node(val);    
         // there are two ways to create objs for a class they are: 
         // 1.creating in stack memory like "List.ll"
-        // 2. creating in heap memory like "Node* newnode = new Node(val)" for this we have to use the "new" keyword
+        // 2.creating in heap memory like "Node* newnode = new Node(val)" for this we have to use the "new" keyword
         // this new kw will allocate and assigns the value to the variable and calls the constructor.
         if(head == NULL){
             head = tail = newNode;
@@ -92,7 +92,7 @@ public:
             cout << "Invalid position\n";
             return;
         }
-        if(pos == 0){           // adding at position 0 is nothing but pushfront
+        if(pos == 0){           // adding at position 0 is nothing but pushing front
             push_front(val);
             return;
         }
