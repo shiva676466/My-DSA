@@ -46,18 +46,6 @@ public:
             head = newNode;
         }
     }
-
-    void pop_front(){ // we create temporary because we've to store the value of head and shift the head to next then del the temp
-        if(head == NULL){
-            cout << "Linked list is empty\n";
-            return ;
-        }   
-        Node* temp = head;
-        head = head->next;
-        temp->next = NULL;
-        delete temp;
-    }
-
     
     void push_back(int val){
         Node* newNode = new Node(val);    
@@ -73,6 +61,17 @@ public:
         }
     }
 
+    void pop_front(){ // we create temporary because we've to store the value of head and shift the head to next then del the temp
+        if(head == NULL){
+            cout << "Linked list is empty\n";
+            return ;
+        }   
+        Node* temp = head;
+        head = head->next;
+        temp->next = NULL;
+        delete temp;
+    }
+    
     void pop_back(){
         if(head == NULL){
             cout << "Linked list is empty\n";

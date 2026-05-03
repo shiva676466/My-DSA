@@ -69,3 +69,77 @@ void pop_back(){
     delete temp->next;
     temp->next = NULL;
 }
+
+// insert at pos (insert())
+void insert(int el, int pos){
+    if(pos < 0){
+        // for -ve positions
+        cout << "Invalid Position\n";
+        return;
+    }
+    if(pos == 0){
+        // for position = 0
+        push_front(el);
+        return;
+    }
+    Node* temp = head;
+    for(int i = 0; i < pos-1; i++){
+        if(temp == NULL){
+            cout << "Invalid Position\n";
+            return;
+        }
+        temp = temp->next;
+    }
+    if(temp == NULL){
+        cout << "Invalid Position!\n";
+        return;
+    }
+    Node* newNode = new Node(el);
+    newNode->next = temp->next;
+    temp->next = newNode;
+}
+
+// search with target (search()) - its like 'isExist()' fn
+bool search(int target){
+    Node *temp = head;
+    while(temp != NULL){
+        if(temp->data == target){
+            return true;
+        }
+        temp = temp->next;
+    }
+    return false;
+}
+
+// checking for emptyness (isEmpty())
+bool isEmpty(){
+    return head == NULL;
+}
+
+// printing the linked list (display())
+void display(){
+    if(head == NULL){
+        cout << "Linked List is empty!\n";
+        return;
+    }
+    Node* temp = head;
+    while(temp != NULL){
+        cout << temp->data << "->";
+        temp = temp->next;
+    }
+    cout << "NULL\n";
+}
+
+
+int main(void){
+    cout << "Is Empty: " << isEmpty() << endl;
+
+    push_front(10);
+    push_front(20);
+    push_front(30);
+    push_front(40);
+    push_back(0);
+    display();
+    
+    return 0;
+}
