@@ -21,7 +21,7 @@ int main() {
       l = mid + 1;
     } else {
       r = mid - 1;
-    }
+    } 
   }
 
   if (found) {
