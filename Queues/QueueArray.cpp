@@ -2,10 +2,16 @@
 using namespace std;
 
 /* 
-Queue will follow the FIFO(First In First Out) which means that the element which is inserted first will 
-be deleted first (just like a real world queue)
-*/
+Queue is a linear data structure that will follow the FIFO(First In First Out) which means that the element which is inserted first will 
+be deleted first (just like a real world 'queue')
 
+There are mainly 4 types in queue:
+1. Simple Queue: Normal FIFO behaviour
+2. Circular Queue: Last element is connected to the first element
+3. Priority Queue: Elements are dequeued based on priority
+4. Deque(Double Ended Queue): Elements can be added/removed from both ends
+ 
+*/
 
 #define N 5
  int Queue[N];
