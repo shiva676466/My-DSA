@@ -21,7 +21,8 @@ There are mainly 4 types in queue:
 //  Front → [10] [20] [30] ← Rear
 //           ↑             ↑
 //         removed      inserted
-// we insert elements from the rear(back) part and delete elemets from the front part
+// We insert elements from the rear(back) part and delete elemets from the front part
+
 // =============================== enequeue() ======================================
  void enqueue(int val){
    //  check for overflow condition(fullness)
@@ -39,7 +40,8 @@ There are mainly 4 types in queue:
  
 //  ============================== dequeue() =======================================
 void dequeue(){
-  if(front == -1 || front > rear){
+   // dequeue() removes an element from the front of the queue
+  if(front == -1 || front > rear){     // (front > rear) means all elements were removed and front crosess the rear
    cout << "Underflow\n";
    return;
   }
@@ -105,3 +107,10 @@ int main(){
 
    return 0;
 }
+
+/* 
+Time and Space complexities:
+TC of enqueue: O(1)
+TC of dequeue: O(1)
+TC of Peek: O(1)
+*/
